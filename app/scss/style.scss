@@ -1,0 +1,111 @@
+// Fonts
+ @font-face {
+    font-family: Trebuchet; 
+    src: url(../fonts/Trebuchet-MS.ttf);
+ }
+
+// Variables
+	// Color
+	$color-font: #226a85;
+	$color-font-blue: #0a628e;
+	$color-brand: #ff7900;
+	$color-gray: #8594a2;
+	$color-bg: #eef2f8;
+	// Size
+
+// Normalize, reset
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	html {
+		height: 100%;
+	}
+	article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+		display: block;
+	}
+	label {
+		cursor: pointer;
+	}
+	body {
+		font: 14px 'PT Sans', sans-serif;//'Open Sans', sans-serif;
+		height: 100%;
+	}
+	a {
+		color: #000;
+	}
+	select,input:focus,textarea:focus,textarea,input,button, button:focus {
+		outline: none;
+		border: none;
+	}
+	.clear-after:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+	.clear-before:before {
+		content: '';
+		display: table;
+		clear: both;
+	}
+	.ws-nowrap {
+		white-space: nowrap;
+	}
+	::-webkit-input-placeholder {color: $color-gray;}
+	::-moz-placeholder          {color: $color-gray;}/* Firefox 19+ */
+	:-moz-placeholder           {color: $color-gray;}/* Firefox 18- */
+	:-ms-input-placeholder      {color: $color-gray;}  
+
+
+//------------------- ▲ 1170px -----------------------------
+/* Header
+	-----------------------------------------------------------------------------*/
+
+
+/* Left side bar
+	-----------------------------------------------------------------------------*/
+
+/* Middle
+	-----------------------------------------------------------------------------*/
+
+
+/* Footer
+	-----------------------------------------------------------------------------*/
+
+/* Pop up windows
+	-----------------------------------------------------------------------------*/
+// Style fancybox clases
+.fancybox-skin {
+	box-shadow: none !important;
+	border-radius: 15px !important;
+	background: linear-gradient(to right, #2fbee5,#4fc8e9 10%,#2fbee5);
+	border-bottom: 4px solid #228ba5; 
+}
+.my-close {
+	background: none !important;
+	top: 13px !important;
+	right: -13px !important;
+	color: #21869f;
+	text-shadow: 0 1px #fff;
+	font-weight: 600;
+}
+
+//------------------- 992px-1030px -----------------------
+@media (min-width: 992px) and (max-width: 1030px) {
+	/* Header
+	-----------------------------------------------------------------------------*/
+
+	/* Left side bar
+		-----------------------------------------------------------------------------*/
+
+	/* Middle
+	-----------------------------------------------------------------------------*/
+
+	/* Footer
+	-----------------------------------------------------------------------------*/
+}
+
+//------------------- 768px-991px -----------------------
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
